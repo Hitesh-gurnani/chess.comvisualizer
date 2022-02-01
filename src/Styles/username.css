@@ -1,0 +1,39 @@
+.box-username
+{
+    margin:auto;
+    width: 30%;
+    height: 100px;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    text-align: center;
+}
+.button{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    font-style: italic;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 30px;
+    background: #4285f4;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 3px rgba(0, 0, 0, .1);
+    overflow: hidden;
+  }
+  .button #splash{
+    content: '';
+    position: absolute;
+    
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, .2);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    
+  }

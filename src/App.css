@@ -1,0 +1,16 @@
+.App
+{
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+.App>h1{
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+::-webkit-scrollbar
+{
+  display: none;
+}
